@@ -9,3 +9,7 @@ build:clean $(obj)
 	$(CC) $(obj) -o $(bin)
 clean:
 	rm -f obj/*.o
+install-linux:
+	sudo cp bin/$(Pname) /usr/bin
+	sudo cp bin/$(Pname) /usr/lib
+	sudo cp bin/$(Pname) /usr/share
