@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+    cat - unix cat
+    re-written by Mahdi Salimkhani
+    GNU-GPL License
+    2024
+*/
+
 int readfile(const char *__buf)
 {
     FILE *ptr;
